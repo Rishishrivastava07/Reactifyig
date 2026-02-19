@@ -43,7 +43,7 @@ const App = () => {
                     alt={image.author}
                     className="w-full h-48 object-cover rounded-lg shadow-md hover:scale-105 transition-all duration-300 cursor-pointer"
                   />
-                  <h1 className="font-bold font-medium text-lg mt-2 text-center ">
+                  <h1 className="font-bold  text-lg mt-2 text-center ">
                     {image.author}
                   </h1>
                 </a>
@@ -63,7 +63,7 @@ const App = () => {
           >
             Previous
           </button>
-          <h1 className="mt-2 font-bold text-xl font-medium">Page {page}</h1>
+          <h1 className="mt-2  text-xl font-medium">Page {page}</h1>
           <button
             onClick={() => {
               if (page < 10) {
