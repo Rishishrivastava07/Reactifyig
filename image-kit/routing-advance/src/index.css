@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+htmml,body{
+    background: #000;
+}
+
+h1{
+    font-size:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}

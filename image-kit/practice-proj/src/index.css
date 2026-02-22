@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #9a8787;
+}
+
+input, button {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+button{
+    background-color: silver;
+    color:black;
+    cursor: pointer;
+    border-radius: 5px;
+} 
+
